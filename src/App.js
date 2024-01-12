@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Changeim from './Changeim';
+import Count from './Count';
+import Dependent from './Dependent';
+import Incredecre from './Incredecre';
+import Increment from './Increment';
+import Initial from './Initial';
+import InitialBlank from './InitialBlank';
+import PrevCount from './PrevCount';
+import Stylee from './Stylee';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     
+      <Increment/>
+      <Incredecre/>
+      <Changeim/>
+      <Stylee/>
+      <Initial/>
+      <InitialBlank/>
+      <Count/>
+      <Dependent/>
+      <PrevCount/>
     </div>
   );
 }

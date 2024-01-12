@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+button id{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+button id2{
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
